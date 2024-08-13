@@ -13,29 +13,23 @@ import CGCimage from "../../assets/CGC-image.webp";
 function Home() {
   return (
     <div>
-      <div className="relative">
-      <div className="relative w-full h-screen">
-  <img
-    className="w-full h-full object-cover"
-    src="https://library.cgc.ac.in/images/slider/slide-1.jpg"
-    alt="Background Image"
-  />
-  <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
-    <div className="text-white text-base sm:text-xl tracking-widest font-extrabold text-shadow-lg title changeText">
+      <div className="relative w-full h-screen bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('https://library.cgc.ac.in/images/slider/slide-1.jpg')", backgroundPositionY: "center" }}>
+  <div className="absolute inset-0 flex flex-col justify-center items-center text-center top-0">
+    <div className="text-white text-sm sm:text-base md:text-lg lg:text-xl tracking-widest font-extrabold text-shadow-lg title changeText">
       <div>
         INTERNATIONAL CONFERENCE <br /> ON <br /> EMERGING TECHNOLOGY AND
         INTELLIGENT SYSTEMS <br />
         (ICETIS-2025)
       </div>
-      <pre className="text-base sm:text-xl font-sans tracking-widest font-extrabold text-shadow-lg pb-5 mt-5">
+      <pre className="text-sm sm:text-base md:text-lg lg:text-xl font-sans tracking-widest font-extrabold text-shadow-lg pb-5 mt-5">
         IEEE Conference ID:- 61846 <br />
         (Hybrid Mode)
       </pre>
     </div>
-    <div className="w-full container mx-auto px-4 mt-auto mb-10">
+    <div className="w-full container mx-auto px-4  mb-5">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 px-4 py-2">
-          <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-base sm:text-xl px-2 sm:px-10 title tittleBoJa">
+          <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10 title tittleBoJa">
             <i>
               All accepted and presented papers will be considered for
               inclusion in IEEE Xplore (indexed by Scopus) subject to the
@@ -43,17 +37,17 @@ function Home() {
             </i>
           </h4>
         </div>
-        <div className="w-full lg:w-1/2 px-4 py-2">
-          <h4 className="text-center font-sans text-white font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug title">
+        <div className="w-full lg:w-1/2 px-4">
+          <h4 className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
             Important Dates
             <br />
-            <span className="font-normal text-lg sm:text-2xl">
+            <span className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
               <div className="flex flex-col sm:flex-row items-center justify-center">
-                <span className="text-center font-sans text-white font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug">
+                <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
                   Full Paper Submission Deadline:&nbsp;
                 </span>
                 <div className="flex items-center flex-col">
-                  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug">
+                  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
                     &nbsp;12 May, 2025
                   </span>
                 </div>
@@ -70,21 +64,19 @@ function Home() {
         </div>
       </div>
     </div>
-    <h4 className="text-center font-sans font-bold text-white text-shadow-lg text-2xl leading-snug pt-10 bb-5 title setDataBhai">
+    <h4 className="text-center font-sans font-semibold text-white text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl pt-3">
       Organised by <br /> ECE Department<br /> CGC-JHANJERI,MOHALI <br /> PUNJAB - 140307
     </h4>
   </div>
 </div>
-        
-              </div>
       <div class="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
-        <h4 class="text-center font-sans text-black font-bold text-shadow-lg text-2xl leading-snug pt-10">
+        <h4 class="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10">
           Technically Sponsored by
         </h4>
         <img src={ieeelogo} alt="IEEE Delhi" />
       </div>
       <div className="w-full flex flex-col items-center bg-gray-200 p-0 pb-10">
-        <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl leading-snug pt-10 title">
+        <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl  pt-10 title">
           Conference Sponsors
         </h4>
         <div className="flex gap-16 p-0 px-8">
