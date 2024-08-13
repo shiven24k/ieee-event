@@ -39,7 +39,7 @@ function Navbar() {
         <div className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
           {/*ICETIS 2025 */}
           <div>
-            <a className="sm:order-1 text-green-600 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80" href="#">ICETIS 2025</a>
+            <a className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80" href="#">ICETIS 2025</a>
           </div>
 
           {/* Nav Items */}
@@ -86,7 +86,7 @@ function Navbar() {
                     <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./papersubmission">Paper Submission</a>
                   </li>
                   <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./regrstration">Registration</a>
+                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./registration">Registration</a>
                   </li>
                   <li className="cursor-pointer">
                     <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./contact">Contact</a>
