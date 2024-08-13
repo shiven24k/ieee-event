@@ -17,7 +17,7 @@ const ProfileCard = ({ name, title, imageSrc }) => {
 };
 
 ProfileCard.defaultProps = {
-  name: 'Degnitaries',
+  name: 'Dignitaries',
   title: 'Position Title',
   imageSrc: 'https://via.placeholder.com/150'
 };
