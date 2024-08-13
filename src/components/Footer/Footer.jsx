@@ -20,7 +20,7 @@ function Footer() {
                           <a href="#" class="hover:underline">Pardeep.j1881@cgc.ac.in</a>
                       </li>
                       <li>
-                          <a href="#" class="hover:underline">Tailwind CSS</a>
+                          <a href="#" class="hover:underline">Shivani.j2587@cgc.ac.in</a>
                       </li>
                   </ul>
               </div>

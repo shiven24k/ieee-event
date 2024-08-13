@@ -70,9 +70,8 @@ function Home() {
         </div>
       </div>
     </div>
-    <h4 className="text-center font-sans font-bold text-white text-shadow-lg text-2xl leading-snug pt-10 title setDataBhai">
-      Organised by <br /> School of Electronics <br /> Chandigarh
-      Engineering Colleges Jhanjeri <br /> Punjab - 140307
+    <h4 className="text-center font-sans font-bold text-white text-shadow-lg text-2xl leading-snug pt-10 bb-5 title setDataBhai">
+      Organised by <br /> ECE Department<br /> CGC-JHANJERI,MOHALI <br /> PUNJAB - 140307
     </h4>
   </div>
 </div>
