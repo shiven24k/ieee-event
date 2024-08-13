@@ -19,7 +19,7 @@ function Home() {
     </div>
     <div className="text-white absolute top-10 text-xl sm:text-2xl left-1/2 transform -translate-x-1/2 tracking-widest font-extrabold text-shadow-lg pb-5 title changeText text-center">
       <div className="leading-snug">
-        INTERNATIONAL CONFERENCE <br /> <span className="text-red-600">ON</span> <br /> EMERGING TECHNOLOGY, AND INTELLIGENT SYSTEMS <br />
+        INTERNATIONAL CONFERENCE <br /> ON <br /> EMERGING TECHNOLOGY AND INTELLIGENT SYSTEMS <br />
         (ICETIS-2025)
       </div>
       <pre className="text-xl sm:text-2xl text-center font-sans tracking-widest font-extrabold text-shadow-lg pb-5 mt-5">
@@ -28,7 +28,7 @@ function Home() {
       </pre>
     </div>
     <div className="absolute bottom-0 container mx-auto px-4">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap mb-10">
         <div className="w-full lg:w-1/2 px-4 py-2">
           <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-base sm:text-xl px-2 sm:px-10 title tittleBoJa">
             <i>All accepted and presented papers will be considered for inclusion in IEEE Xplore (indexed by Scopus) subject to the quality requirement.</i>
@@ -41,15 +41,15 @@ function Home() {
               <div className="flex flex-col sm:flex-row items-center justify-center">
                 <span className="text-center font-sans text-white font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug">Full Paper Submission Deadline:&nbsp;</span>
                 <div className="flex items-center flex-col">
-                  <span className="text-center font-sans text-yellow-500 font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug">&nbsp;29 February, 2024</span>
-                  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-lg leading-snug line-through decoration-yellow-500">31 January, 2024</span>
+                  <span className="text-center font-sans text-white font-semibold text-shadow-lg text-lg sm:text-2xl leading-snug">&nbsp;12 May, 2025</span>
+                  
                 </div>
               </div>
             </span>
-            Acceptance Notification Deadline: 10 April, 2024<br />
-            Camera Ready Manuscript Deadline: 25 April, 2024<br />
-            Conference Registration Deadline: 15 May, 2024<br />
-            Conference Dates: 08-09 June, 2024
+            Acceptance Notification Deadline: 9 June, 2025<br />
+            Camera Ready Manuscript Deadline: 9 July, 2025<br />
+            Conference Registration Deadline: 11 August, 2025<br />
+            Conference Dates: 11-13 September, 2025
           </h4>
         </div>
       </div>
@@ -85,53 +85,157 @@ function Home() {
 </div>
   </div>
 </div>
-<div class="flex flex-wrap">
-  <div class="w-full max-w-full  mx-auto">
-    <div class="relative flex flex-col m-5">
-      
-      <div class="flex-auto block py-8 px-9">
-      <div>
-  <div className="mb-9">
-    <h1 className="mb-2 text-[1.75rem] font-semibold text-dark">Conference Chair</h1>
-    <span className="text-[1.15rem] font-medium text-muted">
-      Join us in welcoming our esteemed Conference Chair, who brings unparalleled expertise and leadership to guide this premier event
-    </span>
+
+{/* keynote speakers */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">KEYNOTE SPEAKER</h1>
   </div>
-  <div className="flex w-full items-center justify-center">
-      <ProfileCard name="Dr. Hunny Pahuja" title="HOD, ECE" imageSrc={HunnyPahuja} />
-      <ProfileCard name="Dr. Pradeep Kumar Jindal" title="Associate Professor" imageSrc={PradeepKumar} />
-      <ProfileCard name="Dr. Mirgendra" title="Associate Professor" imageSrc={Mirgendra} />
-  </div>
-</div>
-      </div>
-    </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
   </div>
 </div>
 
-<div class="flex flex-wrap">
-  <div class="w-full max-w-full  mx-auto">
-    <div class="relative flex flex-col m-5">
-      
-      <div class="flex-auto block py-8 px-9">
-      <div>
-  <div className="mb-9">
-    <h1 className="mb-2 text-[1.75rem] font-semibold text-dark">Leadership Team</h1>
-    <span className="text-[1.15rem] font-medium text-muted">
-    Chandigarh Group of Colleges, Jhanjeri is led by a commitment to empower individuals, fostering an environment conducive to the creation of exemplary work. Through collaborative efforts, our leadership aims to inspire greatness and facilitate impactful contributions within our community and beyond.
-    </span>
+{/* chief partons */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">CHIEF PARTONS</h1>
   </div>
-  <div className="flex w-full items-center justify-center">
-      <ProfileCard name="S. Rashpal Singh Dhaliwal" title="Chairman, Chandigarh group of colleges" imageSrc={chairman} />
-      <ProfileCard name="Mr. Arsh Dhaliwal" title="Managing Director, CGC Jhanjeri" imageSrc={md} />
-      <ProfileCard name="Dr. Vinay Goyal" title="Executive Director - DCPD, CGC Jhanjeri" imageSrc={ed} />
-      <ProfileCard name="Dr. Sushil Prashar" title="Executive Director - DCPD, CGC Jhanjeri" imageSrc={ed_dcpd} />
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard name="S. Rashpal Singh Dhaliwal" title="Chairman, Chandigarh group of colleges" imageSrc={chairman} />
+    <ProfileCard name="Mr. Arsh Dhaliwal" title="Managing Director, CGC Jhanjeri" imageSrc={md} />
+  </div>
+</div>
 
+{/* general chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">GENERAL CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
   </div>
 </div>
-      </div>
+
+{/* conference chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">CONFERENCE CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard name="Dr. Hunny Pahuja" title="HOD, ECE" imageSrc={HunnyPahuja} />
+  </div>
+</div>
+
+{/* technical program chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">TECHNICAL PROGRAM CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard name="Dr. Pradeep Kumar Jindal" title="Associate Professor" imageSrc={PradeepKumar} />
+  </div>
+</div>
+
+{/* publication chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">PUBLICATION CHAIR</h1>
+  </div>
+     <div className='flex items-center justify-center'>
+    <ProfileCard name="Dr. Mirgendra" title="Associate Professor" imageSrc={Mirgendra} />
     </div>
+</div>
+
+{/* organising secretary */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">ORGANISING SECRETARY</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
   </div>
 </div>
+
+{/* publicity chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">PUBLICITY CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+{/* tutorial chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">TUTORIAL CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+{/* registration desk */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">REGISTRATION DESK</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+{/* session management chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">SESSION MANAGEMENT CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+{/* hospitality chair */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">HOSPITALITY CHAIR</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+{/* transportation committee */}
+<div>
+  <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">TRANSPORTATION COMMITTEE</h1>
+  </div>
+  <div className="flex w-full items-center justify-center text-2xl">
+    <ProfileCard />
+    <ProfileCard />
+  </div>
+</div>
+
+<div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
+    <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">Contact</h1>
+  </div>
+
+
+
+
+
+
+
 
 
 

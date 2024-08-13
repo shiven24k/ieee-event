@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MdOutlineMailOutline, MdOutlineCall } from "react-icons/md";
 import ieeelogo from '../../assets/ieeelogo.png';
-import cgclogo from '../../assets/cgclogo.webp';
+import cgclogo from '../../assets/cgclogo.png';
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -62,7 +62,7 @@ function Navbar() {
                     <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./about" aria-current="page">About</a>
                   </li>
                   <li>
-                    <button id="dropdownNavbarLink" onClick={toggleDropdown} className="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none">Dropdown <svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button id="dropdownNavbarLink" onClick={toggleDropdown} className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none">Committee<svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                     </svg></button>
                     {/* Dropdown menu */}

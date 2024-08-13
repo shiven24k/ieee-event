@@ -1,10 +1,9 @@
-// ProfileCard.jsx
 import React from 'react';
 
 const ProfileCard = ({ name, title, imageSrc }) => {
   return (
-    <div className="flex flex-col mr-5 text-center mb-11 lg:mr-16">
-      <div className="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+    <div className="flex flex-col text-center mb-10 p-5">
+      <div className="inline-block  relative shrink-0 rounded-[.95rem]">
         <img className="object-cover rounded-[.65rem] w-[14em] h-[14em]" src={imageSrc} alt={name} />
       </div>
       <div className="text-center">
@@ -15,6 +14,12 @@ const ProfileCard = ({ name, title, imageSrc }) => {
       </div>
     </div>
   );
+};
+
+ProfileCard.defaultProps = {
+  name: 'Degnitaries',
+  title: 'Position Title',
+  imageSrc: 'https://via.placeholder.com/150'
 };
 
 export default ProfileCard;
