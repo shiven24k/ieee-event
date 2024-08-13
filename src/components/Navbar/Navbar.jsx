@@ -68,7 +68,7 @@ function Navbar() {
                     <div id="dropdownNavbar" className={`${isDropdownOpen ? 'block' : 'hidden'} z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}>
                       <ul className="py-2 text-sm text-gray-700 font-medium dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                         <li>
-                          <a href="./advisory" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Advisory Committee</a>
+                          <a href="./advisory" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Keynote Speaker </a>
                         </li>
                         <li>
                           <a href="./organizing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Organizing Committee</a>

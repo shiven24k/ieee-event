@@ -1,13 +1,19 @@
 import React from 'react';
 function CallForPaper(){
     return (
-        <div className="mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full">
+      <div className="mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
-        <h2 className="text-2xl font-bold mb-5">CALL FOR PAPER</h2>
+        <div className="flex justify-between items-center mb-5">
+          <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
+          <img src="path/to/image.jpg" alt="Call for Paper" className="w-16 h-16 object-cover" />
+        </div>
         <p className="mb-5">
           International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
         </p>
-        <h3 className="text-xl font-bold mb-3">TECHNICAL TRACKS</h3>
+        <div className="flex justify-between items-center mb-3">
+          <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
+          <img src="path/to/image.jpg" alt="Technical Tracks" className="w-16 h-16 object-cover" />
+        </div>
         <p className="mb-5">
           RACCAI-2024 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
@@ -16,7 +22,10 @@ function CallForPaper(){
           <li>Track 2: Innovative Computing</li>
           <li>Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</li>
         </ul>
-        <h4 className="text-lg font-bold mb-2">Innovative Communication/Electronics/Electrical/Networks and Security</h4>
+        <div className="flex justify-between items-center mb-2">
+          <h4 className="text-lg font-bold">Innovative Communication/Electronics/Electrical/Networks and Security</h4>
+          <img src="path/to/image.jpg" alt="Innovative Communication" className="w-16 h-16 object-cover" />
+        </div>
         <ul className="list-disc list-inside mb-5">
           <li>Wireless sensor networks</li>
           <li>Wireless communications</li>
@@ -50,7 +59,10 @@ function CallForPaper(){
           <li>Cyber Security</li>
           <li>MANET’s</li>
         </ul>
-        <h4 className="text-lg font-bold mb-2">Innovative Computing</h4>
+        <div className="flex justify-between items-center mb-2">
+          <h4 className="text-lg font-bold">Innovative Computing</h4>
+          <img src="path/to/image.jpg" alt="Innovative Computing" className="w-16 h-16 object-cover" />
+        </div>
         <ul className="list-disc list-inside mb-5">
           <li>Computational Intelligence</li>
           <li>Signal Processing</li>
@@ -71,7 +83,10 @@ function CallForPaper(){
           <li>Internet computing</li>
           <li>High performance computing</li>
         </ul>
-        <h4 className="text-lg font-bold mb-2">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
+        <div className="flex justify-between items-center mb-2">
+          <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
+          <img src="path/to/image.jpg" alt="AI/ML/Robotics/IOT/Blockchain" className="w-16 h-16 object-cover" />
+        </div>
         <ul className="list-disc list-inside mb-5">
           <li>Machine Learning</li>
           <li>Artificial Intelligence</li>
