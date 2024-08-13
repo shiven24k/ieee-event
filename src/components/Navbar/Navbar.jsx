@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { MdOutlineMailOutline, MdOutlineCall } from '../sanity/node_modules/react-icons/md';
 import ieeelogo from '../../assets/ieeelogo.png';
 import cgclogo from '../../assets/cgclogo.png';
 
@@ -21,13 +20,13 @@ function Navbar() {
       <div id="sticky-banner" className="z-50 flex flex-col sm:flex-row justify-between w-full p-2 border-b border-gray-200 bg-gradient-to-r from-red-700 to-red-500 dark:bg-gray-700 dark:border-gray-600">
         <div className="flex flex-col sm:flex-row items-center mx-auto gap-4 sm:gap-32 text-white">
           <div className='flex gap-2 sm:gap-4 items-center'>
-            <MdOutlineMailOutline />
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path></svg>
             <p className="text-[1em] sm:text-base">Pardeep.j1881@cgc.ac.in</p>
             <p className="hidden sm:block">|</p>
             <p className="text-[1em] sm:text-base">+91 98724 95684</p>
           </div>
           <div className='flex gap-2 sm:gap-4 items-center'>
-            <MdOutlineCall />
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1z"></path></svg>
             <p className="text-sm sm:text-base">Shivani.j2587@cgc.ac.in</p>
             <p className="hidden sm:block">|</p>
             <p className="text-sm sm:text-base">+91 8264239901</p>
