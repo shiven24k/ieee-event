@@ -8,7 +8,7 @@ import chairman from "../../assets/chairman.png";
 import md from "../../assets/md.png";
 import ed from "../../assets/ed.png";
 import ed_dcpd from "../../assets/ed-dcpd.png";
-import CGCimage from "../../assets/CGC-image.webp";
+import CGCimage from "../../assets/CGC-image.png";
 
 function Home() {
   return (
@@ -190,16 +190,17 @@ function Home() {
           />
         </div>
       </div>
-
+      
+          
       {/* publication chair */}
       <div>
         <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
           <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
-            PUBLICATION CHAIR
+          PUBLICATION CHAIR
           </h1>
         </div>
-        <div className="flex items-center justify-center">
-          <ProfileCard
+        <div className="flex w-full items-center justify-center text-2xl">
+        <ProfileCard
             name="Dr. Mirgendra"
             title="Associate Professor"
             imageSrc={Mirgendra}
@@ -297,11 +298,50 @@ function Home() {
           <ProfileCard />
         </div>
       </div>
-
+       {/* contact us */}
       <div className="flex flex-wrap mb-9 w-full relative flex-col flex-auto py-8 px-9">
         <h1 className="mb-2 text-[1.75rem] font-bold text-dark text-center text-4xl uppercase">
           Contact
         </h1>
+        <div className="container mx-auto px-4 py-8">
+  <div className="overflow-x-auto">
+    <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+      <thead className="bg-red-700 text-white">
+        <tr>
+          <th className="w-1/4 py-3 px-4 text-left">Address</th>
+          <th className="w-1/4 py-3 px-4 text-left">Email Us @</th>
+          <th className="w-1/4 py-3 px-4 text-left">Call Us</th>
+          <th className="w-1/4 py-3 px-4 text-left">Quick Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr className="border-b border-gray-200">
+          <td className="py-3 px-4">123 new street, </td>
+          <td className="py-3 px-4">dummy@example.com</td>
+          <td className="py-3 px-4">XOXOXOXOXOXO</td>
+          <td className="py-3 px-4">
+            <ul className="list-disc list-inside">
+              <li className="list-none"><a href="#" className="text-blue-500 hover:underline">Linkedin</a></li>
+             
+            </ul>
+          </td>
+        </tr>
+        <tr className="border-b border-gray-200">
+          <td className="py-3 px-4">123 new street, </td>
+          <td className="py-3 px-4">dummy@example.com</td>
+          <td className="py-3 px-4">XOXOXOXOXOXO</td>
+          <td className="py-3 px-4">
+            <ul className="list-disc list-inside">
+              <li className="list-none"><a href="#" className="text-blue-500 hover:underline">Linkedin</a></li>
+              
+            </ul>
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
       </div>
     </div>
   );

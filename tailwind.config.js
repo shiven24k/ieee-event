@@ -19,6 +19,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+
       backgroundImage: {
         'img': "url('https://www.cgc.ac.in/course/all-courses/images/CGC-image.webp')",
       },
