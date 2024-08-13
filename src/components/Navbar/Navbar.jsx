@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MdOutlineMailOutline, MdOutlineCall } from 'react-icons/md';
+import { MdOutlineMailOutline, MdOutlineCall } from '../sanity/node_modules/react-icons/md';
 import ieeelogo from '../../assets/ieeelogo.png';
 import cgclogo from '../../assets/cgclogo.png';
 
