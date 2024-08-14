@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect, useRef } from 'react';
 import ieeelogo from '../../assets/ieeelogo.png';
 import cgclogo from '../../assets/cgclogo.png';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -12,6 +13,25 @@ function Navbar() {
 
   const toggleBurger = () => {
     setIsBurgerOpen(!isBurgerOpen);
+  };
+  const dropdownRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+
+  const handleOptionClick = () => {
+    setIsDropdownOpen(false);
   };
 
   return (
@@ -39,62 +59,123 @@ function Navbar() {
         <div className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
           {/*ICETIS 2025 */}
           <div>
-            <a className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80" href="#">ICETIS 2025</a>
+           <Link to="./">
+            <a className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80" >ICETIS 2025</a>
+            </Link>
           </div>
 
           {/* Nav Items */}
           <div>
-            <div className="sm:order-3 flex flex-col items-center gap-x-2">
-              <button type="button" onClick={toggleBurger} className="sm:hidden top-0 size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
-                <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0 size-4`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line x1="3" x2="21" y1="18" y2="18" /></svg>
-                <svg className={`${isBurgerOpen ? 'block' : 'hidden'} shrink-0 size-4`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
-                <span className="sr-only">Toggle</span>
-              </button>
-            </div>
-            <div id="hs-navbar-alignment" className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2`} aria-labelledby="hs-navbar-alignment-collapse">
-              <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-                <ul className="flex flex-col gap-5 sm:flex-row sm:items-center">
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./" aria-current="page">Home</a>
-                  </li>
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./about" aria-current="page">About</a>
-                  </li>
-                  <li>
-                    <button id="dropdownNavbarLink" onClick={toggleDropdown} className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none">Committee<svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                    </svg></button>
-                    {/* Dropdown menu */}
-                    <div id="dropdownNavbar" className={`${isDropdownOpen ? 'block' : 'hidden'} z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}>
-                      <ul className="py-2 text-sm text-gray-700 font-medium dark:text-gray-200" aria-labelledby="dropdownLargeButton">
-                        <li>
-                          <a href="./advisory" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Keynote Speaker </a>
-                        </li>
-                        <li>
-                          <a href="./organizing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Organizing Committee</a>
-                        </li>
-                        <li>
-                          <a href="./technnical" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Technical Program Committee</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./callforpaper">Call for Paper</a>
-                  </li>
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./papersubmission">Paper Submission</a>
-                  </li>
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./registration">Registration</a>
-                  </li>
-                  <li className="cursor-pointer">
-                    <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" href="./contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      <div className="sm:order-3 flex flex-col items-center gap-x-2">
+        <button type="button" onClick={toggleBurger} className="sm:hidden top-0 size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+          <svg className={`${isBurgerOpen ? 'hidden' : 'block'} shrink-0 size-4`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line x1="3" x2="21" y1="18" y2="18" /></svg>
+          <svg className={`${isBurgerOpen ? 'block' : 'hidden'} shrink-0 size-4`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+          <span className="sr-only">Toggle</span>
+        </button>
+      </div>
+      <div id="hs-navbar-alignment" className={`${isBurgerOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2`} aria-labelledby="hs-navbar-alignment-collapse">
+        <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+          <ul className="flex flex-col gap-5 sm:flex-row sm:items-center">
+            <li className="cursor-pointer">
+              <Link to="./">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" aria-current="page">Home</a>
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="./about">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" aria-current="page">About</a>
+              </Link>
+            </li>
+            <li>
+      <button
+        id="dropdownNavbarLink"
+        onClick={toggleDropdown}
+        className="flex items-center justify-between w-full px-2 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-gray-400 focus:outline-none"
+      >
+        Committee
+        <svg
+          className="w-2.5 h-2.5 ms-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m1 1 4 4 4-4"
+          />
+        </svg>
+      </button>
+      {/* Dropdown menu */}
+      <div
+        id="dropdownNavbar"
+        ref={dropdownRef}
+        className={`${isDropdownOpen ? 'block' : 'hidden'} z-10 font-normal absolute bg-white divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+      >
+        <ul
+          className="py-2 text-sm text-gray-700 font-medium dark:text-gray-200"
+          aria-labelledby="dropdownLargeButton"
+        >
+          <li>
+            <Link to="./advisory">
+              <a
+                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={handleOptionClick}
+              >
+                Keynote Speaker
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link to="./organizing">
+              <a
+                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={handleOptionClick}
+              >
+                Organizing Committee
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link to="./technical">
+              <a
+                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                onClick={handleOptionClick}
+              >
+                Technical Program Committee
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </li>
+            <li className="cursor-pointer">
+              <Link to="./callforpaper">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Call for Paper</a>
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="./papersubmission">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Paper Submission</a>
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="./registration">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Registration</a>
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link to="./contact">
+                <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Contact</a>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
           {/* IEEE and CGC Logos */}
           <div className="hidden sm:flex items-center gap-4">
             <img src={cgclogo} className="w-[4em]" alt="CGC Logo" />

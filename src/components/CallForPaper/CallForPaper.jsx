@@ -5,14 +5,17 @@ function CallForPaper(){
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
         <div className="flex justify-between items-center mb-5">
           <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
-          <img src="path/to/image.jpg" alt="Call for Paper" className="w-16 h-16 object-cover" />
+          
         </div>
+        <div className="flex justify-between items-center mb-5">
         <p className="mb-5">
           International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
         </p>
+        <img src="path/to/image.jpg" alt="Innovative Computing" className="w-16 h-16 object-cover" />
+        </div>
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
-          <img src="path/to/image.jpg" alt="Technical Tracks" className="w-16 h-16 object-cover" />
+          
         </div>
         <p className="mb-5">
           RACCAI-2024 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):

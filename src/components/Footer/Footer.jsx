@@ -72,7 +72,7 @@ function Footer() {
       <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">ICETIS</a>. All Rights Reserved.
           </span>
-          <span class="text-sm text-white sm:text-center dark:text-gray-400"> Designed by <a href="https://www.linkedin.com/in/shiven-kashyap-964819220/">Shiven Kahsyap</a></span>
+          <span class="text-sm text-white sm:text-center dark:text-gray-400"> Designed by <a href="https://www.linkedin.com/in/shiven-kashyap-964819220/">Shiven Kashyap</a></span>
       </div>
     </div>
 </footer>
