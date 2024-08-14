@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     
@@ -36,36 +37,36 @@ function Footer() {
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">quick link</h2>
-                  <div className="flex gap-5">
-                    <div>
-                    <ul class="text-white dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Home</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">About</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">Call for Paper</a>
-                      </li>
-                  </ul>
-                    </div>
-                    <div>
-                    <ul class="text-white dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Paper Submission</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Registration</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">Contact</a>
-                      </li>
-                  </ul> 
-                    </div>
-                  </div>
-              </div>
+  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">quick link</h2>
+  <div className="flex gap-5">
+    <div>
+      <ul className="text-white dark:text-gray-400 font-medium">
+        <li className="mb-4">
+          <Link to="/" className="hover:underline">Home</Link>
+        </li>
+        <li className="mb-4">
+          <Link to="/about" className="hover:underline">About</Link>
+        </li>
+        <li>
+          <Link to="/callforpaper" className="hover:underline">Call for Paper</Link>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul className="text-white dark:text-gray-400 font-medium">
+        <li className="mb-4">
+          <Link to="/papersubmission" className="hover:underline">Paper Submission</Link>
+        </li>
+        <li className="mb-4">
+          <Link to="/registration" className="hover:underline">Registration</Link>
+        </li>
+        <li>
+          <Link to="/contact" className="hover:underline">Contact</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
           </div>
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

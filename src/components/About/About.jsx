@@ -8,6 +8,7 @@ import chairman from "../../assets/chairman.png";
 import md from "../../assets/md.png";
 import ed from "../../assets/ed.png";
 import ed_dcpd from "../../assets/ed-dcpd.png";
+import da from "../../assets/da.jpeg";
 function About() {
   return (
     <div>
@@ -105,7 +106,7 @@ function About() {
             <ProfileCard
               name="Dr. Anish Gupta"
               title="Director Academics, CGC Jhanjeri"
-              // imageSrc={md}
+               imageSrc={da}
             />
             <ProfileCard
               name="Dr. Vinay Goyal"
