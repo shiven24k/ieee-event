@@ -124,7 +124,7 @@ function Navbar() {
                         aria-labelledby="dropdownLargeButton"
                       >
                         <li>
-                          <Link to="./advisory">
+                          <Link to="./keynotespeaker">
                             <a
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                               onClick={handleOptionClick}
@@ -150,6 +150,16 @@ function Navbar() {
                               onClick={handleOptionClick}
                             >
                               Technical Program Committee
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="./studentteam">
+                            <a
+                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              onClick={handleOptionClick}
+                            >
+                              Student Team
                             </a>
                           </Link>
                         </li>

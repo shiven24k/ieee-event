@@ -8,9 +8,10 @@ import Registration from './components/Registration/Registration';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Advisory from './components/AdvisoryCommittee/Advisory';
 import Organizing from './components/OrganizingCommittee/Organizing';
 import TechnicalProgram from './components/TechnicalProgramCommittee/TechnicalProgram';
+import StudentTeam from './components/StudentTeam/StudentTeam';
+import KeynoteSpeaker from './components/KeynoteSpeaker/KeynoteSpeaker';
 
 function App() {
   return (
@@ -21,11 +22,12 @@ function App() {
           
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/advisory" element={<Advisory />} />
+          <Route path="/keynotespeaker" element={<KeynoteSpeaker />} />
           <Route path="/organizing" element={<Organizing />} />
           <Route path="/technical" element={<TechnicalProgram />} />
           <Route path="/callforpaper" element={<CallForPaper />} />
           <Route path="/papersubmission" element={<PaperSubmission />} />
+          <Route path="/studentteam" element={<StudentTeam />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/contact" element={<Contact />} />
           
