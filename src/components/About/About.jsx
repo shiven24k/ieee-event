@@ -104,15 +104,16 @@ function About() {
               imageSrc={md}
             />
             <ProfileCard
-              name="Dr. Anish Gupta"
-              title="Director Academics, CGC Jhanjeri"
-               imageSrc={da}
-            />
-            <ProfileCard
               name="Dr. Vinay Goyal"
               title="Executive Director, CGC Jhanjeri"
               imageSrc={ed}
             />
+            <ProfileCard
+              name="Dr. Anish Gupta"
+              title="Director Academics, CGC Jhanjeri"
+               imageSrc={da}
+            />
+            
           </div>
         </div>
 

@@ -6,59 +6,86 @@ function Home() {
   return (
     <div>
       <div className="relative w-full h-screen bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('https://library.cgc.ac.in/images/slider/slide-1.jpg')", backgroundPositionY: "center" }}>
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center m-auto">
-  <div className="text-white text-sm sm:text-base md:text-lg lg:text-xl tracking-widest font-extrabold text-shadow-lg title changeText">
-    <div>
-      INTERNATIONAL CONFERENCE <br /> ON <br /> EMERGING TECHNOLOGY AND
-      INTELLIGENT SYSTEMS <br />
-      (ICETIS-2025)
-    </div>
-    {/* <pre className="text-sm sm:text-base md:text-lg lg:text-xl font-sans tracking-widest font-extrabold text-shadow-lg pb-5 mt-5">
-      IEEE Conference ID:- 61846 <br />
-      (Hybrid Mode)
-    </pre> */}
-  </div>
-  <div className="w-full container mx-auto px-4 m-5">
-    <div className="flex flex-wrap">
-      <div className="w-full lg:w-1/2 px-4 py-2">
-        <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10 title tittleBoJa">
-          <i>
-            All accepted and presented papers will be considered for
-            inclusion in IEEE Xplore (indexed by Scopus) subject to the
-            quality requirement.
-          </i>
-        </h4>
+      <div className="flex justify-center items-center min-h-screen">
+  <div className="absolute top-30 flex flex-col justify-center items-center text-center m-auto pb-5">
+    <div className="text-white text-sm sm:text-base md:text-lg lg:text-xl tracking-widest font-extrabold text-shadow-lg pb-5">
+      <div>
+        INTERNATIONAL CONFERENCE <br /> ON <br /> EMERGING TECHNOLOGY AND
+        INTELLIGENT SYSTEMS <br />
+        (ICETIS-2025)
       </div>
-      <div className="w-full lg:w-1/2 px-4">
-        <h4 className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
-          Important Dates
-          <br />
-          <span className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
-            <div className="flex flex-col sm:flex-row items-center justify-center">
-              <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                Full Paper Submission Deadline:&nbsp;
-              </span>
-              <div className="flex items-center flex-col">
-                <span className="text-center font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                  &nbsp;12 May, 2025
+      {/* <pre className="text-sm sm:text-base md:text-lg lg:text-xl font-sans tracking-widest font-extrabold text-shadow-lg pb-5 mt-5">
+        IEEE Conference ID:- 61846 <br />
+        (Hybrid Mode)
+      </pre> */}
+    </div>
+    <div className="w-full container mx-auto px-4 m-5">
+      <div className="flex flex-wrap">
+        <div className="w-full lg:w-1/2 px-4 py-2">
+          <h4 className="text-center font-sans text-white text-shadow-lg leading-relaxed font-normal text-sm sm:text-base md:text-lg lg:text-xl px-2 sm:px-10 title tittleBoJa">
+            <i>
+              All accepted and presented papers will be considered for
+              inclusion in IEEE Xplore (indexed by Scopus) subject to the
+              quality requirement.
+            </i>
+          </h4>
+        </div>
+        <div className="w-full lg:w-1/2 px-4 pb-">
+          <h4 className="text-left font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
+            Important Dates
+            <br /> <br />
+            <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
+              <div className="flex flex-col sm:flex-row items-start justify-start">
+                <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                  Full Paper Submission Deadline:&nbsp;
                 </span>
+                <div className="flex items-start flex-col">
+                  <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 May, 2025
+                  </span>
+                </div>
               </div>
             </div>
-          </span>
-          Acceptance Notification Deadline: 9 June, 2025
-          <br />
-          Camera Ready Manuscript Deadline: 9 July, 2025
-          <br />
-          Conference Registration Deadline: 11 August, 2025
-          <br />
-          Conference Dates: 11-13 September, 2025
-        </h4>
+            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                Acceptance Notification Deadline:&nbsp;
+              </span>
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 June, 2025
+              </span>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                Camera Ready Manuscript Deadline:&nbsp;
+              </span>
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                &nbsp;9 July, 2025
+              </span>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                Conference Registration Deadline:&nbsp;
+              </span>
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                &nbsp;&nbsp;&nbsp;&nbsp;11 August, 2025
+              </span>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                Conference Dates:&nbsp;
+              </span>
+              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-13 September, 2025
+              </span>
+            </div>
+          </h4>
+        </div>
       </div>
     </div>
+    <h4 className="uppercase text-center font-sans font-semibold text-white text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl pt-3">
+      Organised by <br /> DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING<br /> Chandigarh Engineering College, Chandigarh Group of Colleges, Jhanjeri, Mohali, <br/>  Punjab-140307
+    </h4>
   </div>
-  <h4 className="uppercase text-center font-sans font-semibold text-white text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl pt-3">
-    Organised by <br /> DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING<br /> Chandigarh Engineering College, Chandigarh Group of Colleges, Jhanjeri, Mohali, <br/>  Punjab-140307
-  </h4>
 </div>
 </div>
       <div class="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
@@ -115,7 +142,7 @@ function Home() {
     <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
       <thead className="bg-red-700 text-white">
         <tr>
-          <th className="w-1/4 py-3 px-4 text-left">Address</th>
+          <th className="w-1/4 py-3 px-4 text-left">Name</th>
           <th className="w-1/4 py-3 px-4 text-left">Email Us @</th>
           <th className="w-1/4 py-3 px-4 text-left">Call Us</th>
           <th className="w-1/4 py-3 px-4 text-left">Quick Links</th>
@@ -123,23 +150,24 @@ function Home() {
       </thead>
       <tbody>
         <tr className="border-b border-gray-200">
-          <td className="py-3 px-4">123 new street, </td>
-          <td className="py-3 px-4">dummy@example.com</td>
-          <td className="py-3 px-4">XOXOXOXOXOXO</td>
+          <td className="py-3 px-4">Dr. Pradeep Kumar Jindal </td>
+          <td className="py-3 px-4">Pardeep.j1881@cgc.ac.in</td>
+          <td className="py-3 px-4">+91 98724 95684</td>
           <td className="py-3 px-4">
             <ul className="list-disc list-inside">
-              <li className="list-none"><a href="#" className="text-blue-500 hover:underline">Linkedin</a></li>
+              <li className="list-none"><a href="https://www.linkedin.com/in/dr-pardeep-kumar-jindal-1bb1b1217/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in" className="text-blue-500 hover:underline">Linkedin</a></li>
              
             </ul>
           </td>
         </tr>
         <tr className="border-b border-gray-200">
-          <td className="py-3 px-4">123 new street, </td>
-          <td className="py-3 px-4">dummy@example.com</td>
-          <td className="py-3 px-4">XOXOXOXOXOXO</td>
+          <td className="py-3 px-4">Dr. Shivani Goyal
+</td>
+          <td className="py-3 px-4">Shivani.j2587@cgc.ac.in</td>
+          <td className="py-3 px-4">+91 8264239901</td>
           <td className="py-3 px-4">
             <ul className="list-disc list-inside">
-              <li className="list-none"><a href="#" className="text-blue-500 hover:underline">Linkedin</a></li>
+              <li className="list-none"><a href="https://www.linkedin.com/in/shivani-goyal-138b2281/?originalSubdomain=in" className="text-blue-500 hover:underline">Linkedin</a></li>
               
             </ul>
           </td>
