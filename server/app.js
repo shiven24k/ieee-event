@@ -1,11 +1,15 @@
-// server.js
-//to start the server first start react app and then start server on same port
 const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
+const cors = require('cors');
+const path = require('path');
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.post('/api/send-email', (req, res) => {
   const { name, email, message } = req.body;
@@ -19,7 +23,7 @@ app.post('/api/send-email', (req, res) => {
     },
   });
 
-  //mail format
+  // Mail format
   const mailOptions = {
     from: email,
     to: 'kashyapshiven2002@gmail.com',
@@ -29,10 +33,16 @@ app.post('/api/send-email', (req, res) => {
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      return res.status(500).json({ error: 'Failed to send email' });
+      console.error('Error sending email:', error); // Log the error for debugging
+      return res.status(500).json({ error: 'Failed to send email', details: error.message });
     }
     res.status(200).json({ message: 'Email sent successfully!' });
   });
+});
+
+// The "catchall" handler: for any request that doesn't match one above, send back React's index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
 app.listen(3000, () => {
