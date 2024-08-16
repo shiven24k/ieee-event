@@ -23,7 +23,7 @@ app.post('/api/send-email', (req, res) => {
     },
   });
 
-  // Mail format
+  // Mail format and content
   const mailOptions = {
     from: email,
     to: 'kashyapshiven2002@gmail.com',

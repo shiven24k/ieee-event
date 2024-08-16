@@ -4,7 +4,7 @@ import img2 from '../../assets/img2.jpg';
 
 function CallForPaper(){
     return (
-      <div className="mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
+      <div className=" mt-5 container mx-auto py-3 bg-cover bg-no-repeat w-full px-4">
       <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-10">
         <div className="flex justify-between items-center mb-2">
           <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
