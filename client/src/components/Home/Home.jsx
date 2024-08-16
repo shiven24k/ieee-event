@@ -88,7 +88,7 @@ function Home() {
   </div>
 </div>
 </div>
-      <div class="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
+      <div className="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
         {/* <h4 class="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10">
           Technically Sponsored by
         </h4> */}
@@ -104,11 +104,11 @@ function Home() {
           <img src="" className="flex-1 w-1/5 h-auto object-contain" />
         </div>
       </div>
-      <div class="w-full bg-silver py-8">
-        <div class="flex flex-wrap">
-          <div class="w-full lg:w-1/2 order-2 lg:order-1 p-0">
-            <div class="w-full flex flex-col items-start py-8 pl-10%">
-              <p class="text-justify font-sans text-black font-normal text-shadow-lg p-5">
+      <div className="w-full bg-silver py-8">
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-1/2 order-2 lg:order-1 p-0">
+            <div className="w-full flex flex-col items-start py-8 pl-10%">
+              <p className="text-justify font-sans text-black font-normal text-shadow-lg p-5">
                 International Conference on{" "}
                 <strong>
                   “International Conference on Emerging Technology, and

@@ -56,8 +56,8 @@ function Navbar() {
         <div className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
           {/* ICETIS 2025 */}
           <div>
-            <Link to="./">
-              <a className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80">ICETIS 2025</a>
+            <Link to="./" className="sm:order-1 text-blue-800 flex-none text-[30px] sm:text-[50px] font-semibold focus:outline-none focus:opacity-80">
+                  ICETIS 2025
             </Link>
           </div>
 
@@ -81,13 +81,13 @@ function Navbar() {
               <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
                 <ul className="flex flex-col gap-5 sm:flex-row sm:items-center">
                   <li className="cursor-pointer">
-                    <Link to="./">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" aria-current="page">Home</a>
+                    <Link to="./" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                    Home
                     </Link>
                   </li>
                   <li className="cursor-pointer">
-                    <Link to="./about">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" aria-current="page">About</a>
+                    <Link to="./about" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                      About
                     </Link>
                   </li>
                   <li>
@@ -124,66 +124,63 @@ function Navbar() {
                         aria-labelledby="dropdownLargeButton"
                       >
                         <li>
-                          <Link to="./keynotespeaker">
-                            <a
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                              onClick={handleOptionClick}
-                            >
+                          <Link to="./keynotespeaker" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              onClick={handleOptionClick}>
+                            
+                              
+                          
                               Keynote Speaker
-                            </a>
+                          
                           </Link>
                         </li>
                         <li>
-                          <Link to="./organizing">
-                            <a
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                              onClick={handleOptionClick}
-                            >
+                          <Link to="./organizing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              onClick={handleOptionClick}>
+                          
+                              
+                          
                               Organizing Committee
-                            </a>
+                           
                           </Link>
                         </li>
                         <li>
-                          <Link to="./technical">
-                            <a
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                              onClick={handleOptionClick}
-                            >
+                          <Link to="./technical" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              onClick={handleOptionClick} >
+                           
+                             
+                           
                               Technical Program Committee
-                            </a>
+                            
                           </Link>
                         </li>
                         <li>
-                          <Link to="./studentteam">
-                            <a
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                              onClick={handleOptionClick}
-                            >
+                          <Link to="./studentteam"  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              onClick={handleOptionClick}>
                               Student Team
-                            </a>
+                           
                           </Link>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="cursor-pointer">
-                    <Link to="./callforpaper">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Call for Paper</a>
+                    <Link className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none" to="./callforpaper">
+                      Call for Paper
                     </Link>
                   </li>
                   <li className="cursor-pointer">
-                    <Link to="./papersubmission">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Paper Submission</a>
+                    <Link to="./papersubmission" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                   Paper Submission
                     </Link>
                   </li>
                   <li className="cursor-pointer">
-                    <Link to="./registration">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Registration</a>
+                    <Link to="./registration" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                      Registration
                     </Link>
                   </li>
                   <li className="cursor-pointer">
-                    <Link to="./contact">
-                      <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">Contact</a>
+                    <Link to="./contact" className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none">
+                      Contact
                     </Link>
                   </li>
                 </ul>
