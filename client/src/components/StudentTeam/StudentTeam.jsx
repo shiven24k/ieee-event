@@ -81,7 +81,7 @@ function StudentTeam() {
             </tr>
             <tr className="border-b border-gray-200 hover:bg-gray-100">
               <td className="py-3 px-6 text-left whitespace-nowrap">Prakhar Kansal</td>
-              <td className="py-3 px-6 text-left">+91 9478560608</td>
+              <td className="py-3 px-6 text-left">9478560608</td>
               <td className="py-3 px-6 text-left">2230938</td>
               <td className="py-3 px-6 text-left">ECE</td>
               <td className="py-3 px-6 text-left">100243365</td>

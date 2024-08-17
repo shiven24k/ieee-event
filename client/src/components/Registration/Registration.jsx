@@ -17,15 +17,15 @@ function Regestration() {
           <tbody>
             <tr>
               <td className="px-6 py-4 border-b border-gray-200">Faculty Members</td>
-              <td className="px-6 py-4 border-b border-gray-200">1000 INR</td>
+              <td className="px-6 py-4 border-b border-gray-200">6000 INR</td>
             </tr>
             <tr className=" bg-gray-50">
               <td className="px-6 py-4 border-b border-gray-200">Delegates from Industry</td>
-              <td className="px-6 py-4 border-b border-gray-200">1500 INR</td>
+              <td className="px-6 py-4 border-b border-gray-200">7500 INR</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 border-b border-gray-200">Ph.D. Scholars Students (UG/PG)</td>
-              <td className="px-6 py-4 border-b border-gray-200">1000 INR</td>
+              <td className="px-6 py-4 border-b border-gray-200">Scholar Students (UG/PG/Ph.D)</td>
+              <td className="px-6 py-4 border-b border-gray-200">5000 INR</td>
             </tr>
             <tr className="bg-gray-50">
               <td className="px-6 py-4 border-b border-gray-200">Foreign Delegates</td>
