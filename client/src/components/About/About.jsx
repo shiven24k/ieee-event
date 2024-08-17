@@ -9,6 +9,7 @@ import md from "../../assets/md.png";
 import ed from "../../assets/ed.png";
 import ed_dcpd from "../../assets/ed-dcpd.png";
 import da from "../../assets/da.jpeg";
+import shivani from "../../assets/shivani.jpg";
 function About() {
   return (
     <div>
@@ -161,7 +162,7 @@ function About() {
             <ProfileCard
               name="Dr. Shivani Goyal"
               title="Associate Professor"
-              // imageSrc={PradeepKumar}
+              imageSrc={shivani}
             />
           </div>
         </div>
