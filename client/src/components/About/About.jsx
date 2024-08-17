@@ -103,16 +103,7 @@ function About() {
               title="Managing Director, CGC Jhanjeri"
               imageSrc={md}
             />
-            <ProfileCard
-              name="Dr. Vinay Goyal"
-              title="Executive Director, CGC Jhanjeri"
-              imageSrc={ed}
-            />
-            <ProfileCard
-              name="Dr. Anish Gupta"
-              title="Director Academics, CGC Jhanjeri"
-               imageSrc={da}
-            />
+         
             
           </div>
         </div>
@@ -125,8 +116,16 @@ function About() {
             </h1>
           </div>
           <div className="flex w-full items-center justify-center text-2xl">
-            <ProfileCard />
-            <ProfileCard />
+          <ProfileCard
+              name="Dr. Vinay Goyal"
+              title="Executive Director, CGC Jhanjeri"
+              imageSrc={ed}
+            />
+            <ProfileCard
+              name="Dr. Anish Gupta"
+              title="Director Academics, CGC Jhanjeri"
+               imageSrc={da}
+            />
           </div>
         </div>
 
