@@ -24,9 +24,10 @@ app.post('/api/send-email', (req, res) => {
   });
 
   // Mail format and content
+  //if i change the email to my email then i will get the email
   const mailOptions = {
     from: email,
-    to: 'biswasgaurav28@gmail.com',
+    to: 'kashyapshiven2002@gmail.com',
     subject: 'ICETIS 2025 Contact Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
