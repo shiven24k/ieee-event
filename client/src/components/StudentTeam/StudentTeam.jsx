@@ -155,10 +155,9 @@ function StudentTeam() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4 text-center">Student Team</h1>
-       <div className="">
- 
+
        <div className="mt-4 p-4">
-  <div className="flex flex-wrap justify-center space-y-4">
+  <div className="flex flex-wrap justify-center mb-5">
     <div className="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center">
       <span className="text-red-600 font-semibold">Name: Vishwas Miglani (ECE-CEC)</span>
       <span><strong>Responsibilities –&nbsp;</strong>Chairperson</span>
@@ -183,7 +182,7 @@ function StudentTeam() {
       <span className="text-red-600 font-semibold">Name: Aakanksha Dubey (CEC-CSE)</span>
       <span><strong>Responsibilities –&nbsp;</strong>WebMaster</span>
     </div>
-  </div>
+  
 </div>
 </div>
       <div className="overflow-x-auto">
