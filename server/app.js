@@ -19,7 +19,7 @@ app.post('/api/send-email', (req, res) => {
     service: 'Gmail', // or use your email provider
     auth: {
       user: 'kashyapshiven2002@gmail.com',
-      pass: 'pxhqrrgrjkqmfzii',
+      pass: '',
     },
   });
 

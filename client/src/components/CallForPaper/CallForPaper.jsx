@@ -1,6 +1,8 @@
 import React from 'react';
 import img1 from '../../assets/img1.jpg';
 import img2 from '../../assets/img2.jpg';
+import img3 from '../../assets/img3.jpg';
+import img4 from '../../assets/img4.jpg';
 
 function CallForPaper(){
     return (
@@ -14,7 +16,7 @@ function CallForPaper(){
         <p className="mb-5">
           International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
         </p>
-        <img src={img1} alt="Innovative Computing" className="w-[20em] object-cover rounded-lg shadow-lg" />
+        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-60 object-cover rounded-lg shadow-lg" />
         </div>
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
@@ -87,10 +89,10 @@ function CallForPaper(){
         
         <div className="flex justify-between items-center mb-2">
           <h4 className="text-lg font-bold">Innovative Computing</h4>
-          <img src="path/to/image.jpg" alt="Innovative Computing" className="w-16 h-16 object-cover" />
         </div>
-        <ul className="list-disc list-inside mb-5">
-          <li>Computational Intelligence</li>
+        <div className='flex justify-between items-center'>
+  <ul className="list-none p-5 list-inside mb-5 w-3/4 font-semibold ">
+  <li>Computational Intelligence</li>
           <li>Signal Processing</li>
           <li>Computer vision</li>
           <li>Soft Computing</li>
@@ -108,13 +110,18 @@ function CallForPaper(){
           <li>Expert system</li>
           <li>Internet computing</li>
           <li>High performance computing</li>
-        </ul>
+  </ul>
+  <div className="flex justify-center items-center w-1/4">
+    <img src={img3} alt="Innovative Communication" className="w-[30em] object-cover rounded-lg shadow-xl" />
+  </div>
+</div>
+        
         <div className="flex justify-between items-center mb-2">
           <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
-          <img src={img2} alt="AI/ML/Robotics/IOT/Blockchain" className="w-16 h-16 object-cover" />
         </div>
-        <ul className="list-disc list-inside mb-5">
-          <li>Machine Learning</li>
+        <div className='flex justify-between items-center'>
+  <ul className="list-none p-5 list-inside mb-5 w-3/4 font-semibold ">
+  <li>Machine Learning</li>
           <li>Artificial Intelligence</li>
           <li>Robotics</li>
           <li>Blockchain</li>
@@ -134,9 +141,15 @@ function CallForPaper(){
           <li>Architecture for secure and interactive IoT</li>
           <li>Sensor, Wireless Technologies and APIs</li>
           <li>Emerging IoT</li>
-        </ul>
-        <p className="mb-5">
-          Studies and new developments, which are relevant to science, engineering and technology are welcomed to the conference.
+  </ul>
+  <div className="flex justify-center items-center w-1/4">
+    <img src={img4} alt="Innovative Communication" className="w-[30em] object-cover rounded-lg shadow-xl" />
+  </div>
+</div>
+        
+        
+        <p className="mb-5 text-right">
+           Studies and new developments, which are relevant to science, engineering and technology are welcomed to the conference.
         </p>
       </div>
     </div>

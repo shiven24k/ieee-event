@@ -14,7 +14,7 @@ function About() {
   return (
     <div>
       <div className="pt-10 flex justify-center">
-        <h1 className="shadow-custom-text text-red-600 mb-0 text-center text-4xl  font-bold">
+        <h1 className="shadow-custom-text text-blue-600 mb-0 text-center text-4xl  font-bold">
           CHANDIGARH ENGINEERING COLLEGE
         </h1>
       </div>

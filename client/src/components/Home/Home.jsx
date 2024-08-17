@@ -31,54 +31,54 @@ function Home() {
           </h4>
         </div>
         <div className="w-full lg:w-1/2 px-4 pb-">
-          <h4 className="text-left font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
-            Important Dates
-            <br /> <br />
-            <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
-              <div className="flex flex-col sm:flex-row items-start justify-start">
-                <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                  Full Paper Submission Deadline:&nbsp;
-                </span>
-                <div className="flex items-start flex-col">
-                  <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 May, 2025
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                Acceptance Notification Deadline:&nbsp;
-              </span>
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 June, 2025
-              </span>
-            </div>
-            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                Camera Ready Manuscript Deadline:&nbsp;
-              </span>
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                &nbsp;9 July, 2025
-              </span>
-            </div>
-            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                Conference Registration Deadline:&nbsp;
-              </span>
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                &nbsp;&nbsp;&nbsp;&nbsp;11 August, 2025
-              </span>
-            </div>
-            <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                Conference Dates:&nbsp;
-              </span>
-              <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-13 September, 2025
-              </span>
-            </div>
-          </h4>
+        <h4 className="text-left font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
+  Important Dates
+  <br /> <br />
+  <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
+    <div className="flex flex-col sm:flex-row items-start justify-start">
+      <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+        Full Paper Submission Deadline:
+      </span>
+      <div className="flex items-start flex-col ml-6 sm:ml-8">
+        <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+          12 May, 2025
+        </span>
+      </div>
+    </div>
+  </div>
+  <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+      Acceptance Notification Deadline:
+    </span>
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+      9 June, 2025
+    </span>
+  </div>
+  <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+      Camera Ready Manuscript Deadline:
+    </span>
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+      9 July, 2025
+    </span>
+  </div>
+  <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+      Conference Registration Deadline:
+    </span>
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+      11 August, 2025
+    </span>
+  </div>
+  <div className="flex flex-col sm:flex-row items-start justify-start mt-2">
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug">
+      Conference Dates:
+    </span>
+    <span className="text-left font-sans text-white font-semibold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug ml-6 sm:ml-8">
+      11-13 September, 2025
+    </span>
+  </div>
+</h4>
         </div>
       </div>
     </div>
