@@ -94,16 +94,32 @@ function Home() {
         </h4>
         <img src={ieeelogo} alt="IEEE Delhi" className="p-5" />
       </div> */}
-      <div className="w-full flex flex-col items-center bg-gray-200 pb-10">
-        <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl  pt-10 title">
-          Conference Sponsors
-        </h4>
-        <div className="flex gap-16 p-0 px-8">
-          <img src="" className="flex-1 w-1/5 h-auto object-contain" />
-          <img src="" className="flex-1 w-1/5 h-auto object-contain" />
-          <img src="" className="flex-1 w-1/5 h-auto object-contain" />
-        </div>
-      </div>
+      <div className="w-full flex flex-col items-center bg-gray-200 pb-10 overflow-hidden">
+  <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10 title">
+    Conference Sponsors
+  </h4>
+  <div className="flex gap-16 p-0 px-8 animate-marquee mb-10">
+    {/* <img src="" className="flex-1 w-1/5 h-auto object-contain" />
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" />
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" />
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" />
+    <img src="" className="flex-1 w-1/5 h-auto object-contain" /> */}
+    <p>ABCD</p>
+    <p>EFGH</p>
+    <p>IJKL</p>
+    <p>MNOP</p>
+    <p>QRST</p>
+    <p>UVWX</p>
+    <p>YZAB</p>
+    <p>CDEF</p>
+    <p>GHIJ</p>
+    <p>KLMN</p>
+    <p>OPQR</p>
+    <p>STUV</p>
+    <p>WXYZ</p>
+    
+  </div>
+</div>
       <div className="w-full bg-silver py-8">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 order-2 lg:order-1 p-0">

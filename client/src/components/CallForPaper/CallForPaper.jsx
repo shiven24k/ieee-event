@@ -12,36 +12,27 @@ function CallForPaper(){
           <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
           
         </div>
-        <div className="flex justify-between items-center mb-5 ">
+        <div className="flex text-justify items-center mb-5 ">
         <p className="mb-5">
           International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
         </p>
-        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-5 object-cover rounded-lg shadow-lg" />
+        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-10 object-cover rounded-lg shadow-lg" />
         </div>
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
           
         </div>
-        <p className="mb-5">
+        <p className="mb-5 ">
           ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
-        <ul className="list-none mb-5">
-  <li className="flex items-center mb-2">
-    <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
-    </svg>
+        <ul className=" mb-5">
+  <li className="list-disc list-inside items-center mb-2">
     Track 1: Innovative Communication/Electronics/Electrical/Networks and Security.
   </li>
-  <li className="flex items-center mb-2">
-    <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
-    </svg>
+  <li className="list-disc list-inside  items-center mb-2">
     Track 2: Innovative Computing.
   </li>
-  <li className="flex items-center mb-2">
-    <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
-    </svg>
+  <li className="list-disc list-inside  items-center mb-2">
     Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
   </li>
 </ul>
