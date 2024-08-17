@@ -8,7 +8,7 @@ import chairman from "../../assets/chairman.png";
 import md from "../../assets/md.png";
 import ed from "../../assets/ed.png";
 import ed_dcpd from "../../assets/ed-dcpd.png";
-import da from "../../assets/da.jpeg";
+import da from "../../assets/da.png";
 import shivani from "../../assets/shivani.jpg";
 function About() {
   return (
