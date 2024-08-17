@@ -88,12 +88,12 @@ function Home() {
   </div>
 </div>
 </div>
-      <div className="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
-        {/* <h4 class="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10">
+      {/* <div className="w-full flex flex-col items-center bg-silver p-0 pb-10 gap-8">
+        <h4 class="text-center font-sans text-black font-bold text-shadow-lg text-2xl pt-10">
           Technically Sponsored by
-        </h4> */}
+        </h4>
         <img src={ieeelogo} alt="IEEE Delhi" className="p-5" />
-      </div>
+      </div> */}
       <div className="w-full flex flex-col items-center bg-gray-200 pb-10">
         <h4 className="text-center font-sans text-black font-bold text-shadow-lg text-2xl  pt-10 title">
           Conference Sponsors

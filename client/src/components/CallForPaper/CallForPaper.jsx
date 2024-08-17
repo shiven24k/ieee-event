@@ -16,40 +16,40 @@ function CallForPaper(){
         <p className="mb-5">
           International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
         </p>
-        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-60 object-cover rounded-lg shadow-lg" />
+        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-5 object-cover rounded-lg shadow-lg" />
         </div>
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
           
         </div>
         <p className="mb-5">
-          RACCAI-2024 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
+          ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
         <ul className="list-none mb-5">
   <li className="flex items-center mb-2">
     <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
     </svg>
-    Track 1: Innovative Communication/Electronics/Electrical/Networks and Security
+    Track 1: Innovative Communication/Electronics/Electrical/Networks and Security.
   </li>
   <li className="flex items-center mb-2">
     <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
     </svg>
-    Track 2: Innovative Computing
+    Track 2: Innovative Computing.
   </li>
   <li className="flex items-center mb-2">
     <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
     </svg>
-    Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain
+    Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
   </li>
 </ul>
         <div className="flex justify-between items-center mb-2">
           <h4 className="text-lg font-bold">Innovative Communication/Electronics/Electrical/Networks and Security</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4 font-semibold ">
+  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
     <li>Wireless sensor networks</li>
     <li>Wireless communications</li>
     <li>Optical Communication</li>
@@ -91,7 +91,7 @@ function CallForPaper(){
           <h4 className="text-lg font-bold">Innovative Computing</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4 font-semibold ">
+  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
   <li>Computational Intelligence</li>
           <li>Signal Processing</li>
           <li>Computer vision</li>
@@ -120,7 +120,7 @@ function CallForPaper(){
           <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4 font-semibold ">
+  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
   <li>Machine Learning</li>
           <li>Artificial Intelligence</li>
           <li>Robotics</li>
