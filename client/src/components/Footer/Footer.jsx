@@ -29,7 +29,7 @@ function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">call us at</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="#" className="hover:underline ">+91 98724 95684</a>
+                          <a href="#" className="hover:underline ">+91 9872495684</a>
                       </li>
                       <li>
                           <a href="#" className="hover:underline">+91 8264239901</a>
