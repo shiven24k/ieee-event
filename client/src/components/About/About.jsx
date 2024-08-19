@@ -155,7 +155,7 @@ function About() {
             />
             <ProfileCard
               name="Dr. Shivani Goyal"
-              title="Associate Professor"
+              title="Assistant Professor"
               imageSrc={shivani}
             />
           </div>
