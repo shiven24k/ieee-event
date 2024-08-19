@@ -32,7 +32,7 @@ function Home() {
         </div>
         <div className="w-full lg:w-1/2 px-4 pb-">
   <h4 className="text-center font-sans text-white font-bold text-shadow-lg text-sm sm:text-base md:text-lg lg:text-xl leading-snug title">
-    Important Dates
+    Important Dates:
     <br /> <br />
     <div className="font-normal text-sm sm:text-base md:text-lg lg:text-xl">
       <div className="flex flex-col sm:flex-row items-center justify-center">

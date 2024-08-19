@@ -25,7 +25,7 @@ function About() {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center mt-10 p-4">
         <div className="md:w-2/3">
-          <h2 className="shadow-custom-text text-2xl font-extrabold text-center mb-5">
+          <h2 className=" text-2xl font-extrabold text-center mb-5">
             ABOUT THE INSTITUTE
           </h2>
           <div className="p-5 mt-10 text-justify bg-gray-100 rounded-md">
@@ -55,17 +55,17 @@ function About() {
               <p>
                 <span className="font-bold">VISION :</span> To become a
                 top-notch technical institution offering professional training
-                for the long-term advancement of society
+                for the long-term advancement of society.
               </p>
               <p>
                 <span className="font-bold">MISSION :</span> To attain academic
                 flexibility via robust industry-academia interactions and
-                emphasize employability, and entrepreneurship
+                emphasize employability, and entrepreneurship.
               </p>
               <p>
                 <span className="font-bold">QUALITY POLICY :</span> To give
                 children access to first-rate facilities, state-of-the-art
-                technology, and highly trained teachers
+                technology, and highly trained teachers.
               </p>
             </div>
           </div>
