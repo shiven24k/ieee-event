@@ -3,9 +3,9 @@ function Regestration() {
   return (
     <div className =" container mx-auto py-3 bg-cover bg-no-repeat w-full" style={{backgroundImage: 'url(https://chandigarhengineeringcollege.com/public/course/assets/images/cec/club-bg.png)'}}>
       <h1 className="text-3xl font-bold mb-5 text-center">REGISTRATION</h1>
-      <p className="mb-5 text-center">
+      {/* <p className="mb-5 text-center">
         Authors whose papers are accepted and are of high standards and having practical data/implementation will have the option to submit additional fees to get their paper published in UGC/Scopus indexed journal/book chapter apart from the Registration fees as mentioned in the category below:
-      </p>
+      </p> */}
       <div className="overflow-x-auto mb-5">
       <table className="min-w-full bg-transparent border border-gray-200 shadow-lg rounded-lg">
   <thead className="bg-gray-100 ">
