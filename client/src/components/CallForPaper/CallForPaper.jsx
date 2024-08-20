@@ -26,21 +26,30 @@ function CallForPaper(){
           ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
         <ul className=" mb-5">
-  <li className="list-disc list-inside items-center mb-2">
-    Track 1: Innovative Communication/Electronics/Electrical/Networks and Security.
+  <li className=" flex list-none items-center mb-2">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <span className='font-semibold'> Track 1:&nbsp;</span> Innovative Communication/Electronics/Electrical/Networks and Security.
   </li>
-  <li className="list-disc list-inside  items-center mb-2">
-    Track 2: Innovative Computing.
+  <li className="flex list-none  items-center mb-2">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <span className='font-semibold'> Track 2:&nbsp;</span> Innovative Computing.
   </li>
-  <li className="list-disc list-inside  items-center mb-2">
-    Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
+  <li className="flex list-none items-center mb-2">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    <span className='font-semibold'> Track 3:&nbsp;</span> Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
   </li>
 </ul>
         <div className="flex justify-between items-center mb-2">
           <h4 className="text-lg font-bold">Innovative Communication/Electronics/Electrical/Networks and Security</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
+  <ul className=" p-5 list-disc list-inside mb-5 w-[75%]  ">
     <li>Wireless sensor networks</li>
     <li>Wireless communications</li>
     <li>Optical Communication</li>
@@ -74,7 +83,7 @@ function CallForPaper(){
     <li>MANET’s</li>
   </ul>
   <div className="flex justify-center items-center w-1/4">
-    <img src={img2} alt="Innovative Communication" className="w-[20em] object-cover rounded-lg shadow-xl" />
+    <img src={img2} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl" />
   </div>
 </div>
         
@@ -82,28 +91,28 @@ function CallForPaper(){
           <h4 className="text-lg font-bold">Innovative Computing</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
-  <li>Computational Intelligence</li>
-          <li>Signal Processing</li>
-          <li>Computer vision</li>
-          <li>Soft Computing</li>
-          <li>Decision Support and Decision making</li>
-          <li>Parallel computing</li>
-          <li>Distributed computing</li>
-          <li>Grid computing</li>
-          <li>Cloud computing</li>
-          <li>Mobile computing</li>
-          <li>Biomedical computing</li>
-          <li>Ubiquitous computing</li>
-          <li>Image processing</li>
-          <li>Information retrieval</li>
-          <li>Deep learning</li>
-          <li>Expert system</li>
-          <li>Internet computing</li>
-          <li>High performance computing</li>
+  <ul className="list-disc p-5 list-inside mb-5 w-[70%]">
+    <li>Computational Intelligence</li>
+    <li>Signal Processing</li>
+    <li>Computer vision</li>
+    <li>Soft Computing</li>
+    <li>Decision Support and Decision making</li>
+    <li>Parallel computing</li>
+    <li>Distributed computing</li>
+    <li>Grid computing</li>
+    <li>Cloud computing</li>
+    <li>Mobile computing</li>
+    <li>Biomedical computing</li>
+    <li>Ubiquitous computing</li>
+    <li>Image processing</li>
+    <li>Information retrieval</li>
+    <li>Deep learning</li>
+    <li>Expert system</li>
+    <li>Internet computing</li>
+    <li>High performance computing</li>
   </ul>
-  <div className="flex justify-center items-center w-1/4">
-    <img src={img3} alt="Innovative Communication" className="w-[30em] object-cover rounded-lg shadow-xl" />
+  <div className="flex justify-center items-center w-1/4 max-w-full">
+    <img src={img3} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl"  />
   </div>
 </div>
         
@@ -111,7 +120,7 @@ function CallForPaper(){
           <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
         </div>
         <div className='flex justify-between items-center'>
-  <ul className="list-none p-5 list-inside mb-5 w-3/4  ">
+  <ul className="list-disc p-5 list-inside mb-5 w-3/4  ">
   <li>Machine Learning</li>
           <li>Artificial Intelligence</li>
           <li>Robotics</li>
@@ -134,7 +143,7 @@ function CallForPaper(){
           <li>Emerging IoT</li>
   </ul>
   <div className="flex justify-center items-center w-1/4">
-    <img src={img4} alt="Innovative Communication" className="w-[30em] object-cover rounded-lg shadow-xl" />
+    <img src={img4} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl"  />
   </div>
 </div>
         

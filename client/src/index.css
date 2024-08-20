@@ -11,9 +11,6 @@
         display: none;
     }
 }
-.shadow-custom-text {
-    text-shadow: 0 0 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255), 3px 3px 0 rgb(0, 0, 0) !important;
-  }
 
   @keyframes marquee {
     0% {
@@ -28,3 +25,8 @@
     display: flex;
     animation: marquee 15s linear infinite;
   }
+
+  /* .custom-list-disc {
+    list-style-type: disc;
+    font-size: 1.5em; 
+  } */

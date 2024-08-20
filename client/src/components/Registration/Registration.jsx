@@ -7,37 +7,59 @@ function Regestration() {
         Authors whose papers are accepted and are of high standards and having practical data/implementation will have the option to submit additional fees to get their paper published in UGC/Scopus indexed journal/book chapter apart from the Registration fees as mentioned in the category below:
       </p>
       <div className="overflow-x-auto mb-5">
-        <table className="min-w-full bg-transparent border border-gray-200 shadow-lg rounded-lg">
-          <thead>
-            <tr className=" bg-gray-100">
-              <th className="px-6 py-3 border-b-2 border-gray-200 text-left text-sm leading-4 text-gray-600 uppercase tracking-wider">Delegates</th>
-              <th className="px-6 py-3 border-b-2 border-gray-200 text-left text-sm leading-4 text-gray-600 uppercase tracking-wider">Fee</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-              <td className="px-6 py-4 border-b border-gray-200">Scholar(UG/PG/Ph.D)</td>
-              <td className="px-6 py-4 border-b border-gray-200">5000 INR</td>
-            </tr>
-            <tr>
-              <td className="px-6 py-4 border-b border-gray-200">Faculty Members</td>
-              <td className="px-6 py-4 border-b border-gray-200">6000 INR</td>
-            </tr>
-            <tr className=" bg-gray-50">
-              <td className="px-6 py-4 border-b border-gray-200">Delegates from Industry</td>
-              <td className="px-6 py-4 border-b border-gray-200">7500 INR</td>
-            </tr>
-            
-            <tr className="bg-gray-50">
-              <td className="px-6 py-4 border-b border-gray-200">Foreign Delegates</td>
-              <td className="px-6 py-4 border-b border-gray-200">100 USD</td>
-            </tr>
-            <tr>
-              <td className="px-6 py-4 border-b border-gray-200">Foreign Student Author</td>
-              <td className="px-6 py-4 border-b border-gray-200">90 USD</td>
-            </tr>
-          </tbody>
-        </table>
+      <table className="min-w-full bg-transparent border border-gray-200 shadow-lg rounded-lg">
+  <thead className="bg-gray-100 ">
+    <tr>
+      <th className="py-2 px-4 text-center" colSpan="1"></th>
+      <th className="py-2 px-4 text-center font-bold" colSpan="2">Early Bird Registration</th>
+      <th className="py-2 px-4 text-center font-bold" colSpan="3">Late Registration</th>
+    </tr>
+    <tr>
+      <th className="py-2 px-4 text-center font-semibold">Category of Authors/Attendees (IEEE Member)</th>
+      <th className="py-2 px-4 text-center font-semibold">IEEE Student Members</th>
+      <th className="py-2 px-4 text-center font-semibold">IEEE Members</th>
+      <th className="py-2 px-4 text-center font-semibold">IEEE Student Members</th>
+      <th className="py-2 px-4 text-center font-semibold">IEEE Members</th>
+    </tr>
+  </thead>
+  <tbody className="bg-white">
+    <tr className="hover:bg-gray-100">
+      <td className="py-2 px-4 text-center">Indian Participant</td>
+      <td className="py-2 px-4 text-center">₹5,000</td>
+      <td className="py-2 px-4 text-center">₹6,500</td>
+      <td className="py-2 px-4 text-center">₹6,000</td>
+      <td className="py-2 px-4 text-center">₹8,000</td>
+    </tr>
+    <tr className="hover:bg-gray-100">
+      <td className="py-2 px-4 text-center">Foreign Participant</td>
+      <td className="py-2 px-4 text-center">$150</td>
+      <td className="py-2 px-4 text-center">$250</td>
+      <td className="py-2 px-4 text-center">$250</td>
+      <td className="py-2 px-4 text-center">$300</td>
+    </tr>
+    <tr className="bg-gray-100">
+      <td className="py-2 px-4 text-center font-semibold">Category of Authors/Attendees (Non-IEEE Member)</td>
+      <td className="py-2 px-4 text-center font-semibold">Non-IEEE Student Members</td>
+      <td className="py-2 px-4 text-center font-semibold">Non-IEEE Members</td>
+      <td className="py-2 px-4 text-center font-semibold">Non-IEEE Student Members</td>
+      <td className="py-2 px-4 text-center font-semibold">Non-IEEE Members</td>
+    </tr>
+    <tr className="hover:bg-gray-100">
+      <td className="py-2 px-4 text-center">Indian Participant</td>
+      <td className="py-2 px-4 text-center">₹6,000</td>
+      <td className="py-2 px-4 text-center">₹8,500</td>
+      <td className="py-2 px-4 text-center">₹7,500</td>
+      <td className="py-2 px-4 text-center">₹10,000</td>
+    </tr>
+    <tr className="hover:bg-gray-100">
+      <td className="py-2 px-4 text-center">Foreign Participant</td>
+      <td className="py-2 px-4 text-center">$200</td>
+      <td className="py-2 px-4 text-center">$350</td>
+      <td className="py-2 px-4 text-center">$400</td>
+      <td className="py-2 px-4 text-center">$450</td>
+    </tr>
+  </tbody>
+</table>
       </div>
       <i className="flex text-center justify-center mb-5">
         Registration fee as stated above can be paid through NEFT/Online transaction and refers to:
