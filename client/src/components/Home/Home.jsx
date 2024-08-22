@@ -164,7 +164,19 @@ function Home() {
           <th className="w-1/4 py-3 px-4 text-left">Quick Links</th>
         </tr>
       </thead>
+      
       <tbody>
+      <tr className="border-b border-gray-200">
+          <td className="py-3 px-4">Dr. Honey Pahuja </td>
+          <td className="py-3 px-4">icetis2025@cgc.ac.in</td>
+          <td className="py-3 px-4">+91 97292 88808</td>
+          <td className="py-3 px-4">
+            <ul className="list-disc list-inside">
+              <li className="list-none"><a href="https://www.linkedin.com/in/dr-hunny-pahuja-7b11ba56?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-blue-500 hover:underline">Linkedin</a></li>
+             
+            </ul>
+          </td>
+        </tr>
         <tr className="border-b border-gray-200">
           <td className="py-3 px-4">Dr. Pradeep Kumar Jindal </td>
           <td className="py-3 px-4">Pardeep.j1881@cgc.ac.in</td>
@@ -180,7 +192,7 @@ function Home() {
           <td className="py-3 px-4">Dr. Shivani Goyal
 </td>
           <td className="py-3 px-4">Shivani.j2587@cgc.ac.in</td>
-          <td className="py-3 px-4">+91 8264239901</td>
+          <td className="py-3 px-4">+91 82642 39901</td>
           <td className="py-3 px-4">
             <ul className="list-disc list-inside">
               <li className="list-none"><a href="https://www.linkedin.com/in/shivani-goyal-138b2281/?originalSubdomain=in" className="text-blue-500 hover:underline">Linkedin</a></li>

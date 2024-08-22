@@ -8,7 +8,7 @@ function Footer() {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-              <a href="https://www.cgc.ac.in/" className="flex items-center">
+              <a href="https://www.cgc.ac.in/" className="flex items-center pb-5">
                   <img src="	https://www.cgc.ac.in/public/course/assets/images/header-footer/cgc-jhanjeri-logo-white.png" className="h-10 me-2" alt="FlowBite Logo" />
               </a>
               <p className="self-center text-white dark:text-gray-400 font-small">Chandigarh Group of Colleges Jhanjeri Mohali, <br/> State Highway 12A Jhanjeri, <br/>Sahibzada Ajit Singh Nagar, <br/> Punjab 140307 </p>
@@ -17,11 +17,9 @@ function Footer() {
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">E-mail Us At</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
+                  
                       <li className="mb-4">
-                          <a href="#" className="hover:underline">Pardeep.j1881@cgc.ac.in</a>
-                      </li>
-                      <li>
-                          <a href="#" className="hover:underline">Shivani.j2587@cgc.ac.in</a>
+                          <a href="#" className="hover:underline">icetis2025@cgc.ac.in</a>
                       </li>
                   </ul>
               </div>
@@ -29,10 +27,7 @@ function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">call us at</h2>
                   <ul className="text-white dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="#" className="hover:underline ">+91 9872495684</a>
-                      </li>
-                      <li>
-                          <a href="#" className="hover:underline">+91 8264239901</a>
+                          <a href="#" className="hover:underline ">+91 9729288808</a>
                       </li>
                   </ul>
               </div>

@@ -12,12 +12,24 @@ function CallForPaper(){
           <h2 className="text-2xl font-bold">CALL FOR PAPER</h2>
           
         </div>
-        <div className="flex text-justify items-center mb-5 ">
-        <p className="mb-5">
-          International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
-        </p>
-        <img src={img1} alt="Innovative Computing" className="w-[30em] ml-10 object-cover rounded-lg shadow-lg" />
+        <div className="flex flex-col text-justify items-center mb-5 md:flex-row">
+        <div className='flex flex-col gap-5'>
+  <p className="mb-5 pr-5">
+    International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
+  </p>
+  {/* <div className='flex flex-col gap-5 items-center'>
+  <button className='rounded-lg w-[15em] bg-red-600 text-white font-semibold px-4 py-2'>Click here to Download</button>
+  <button className='rounded-lg w-[10em] bg-red-600 text-white font-semibold px-4 py-2'>Submit Paper</button>
+  </div> */}
+  
+</div>
+
+  
+        
+        <img src={img1} alt="Innovative Computing" className="w-[30em]  object-cover rounded-lg shadow-lg md:w-1/4 mt-5 md:mt-0" />
         </div>
+        
+        
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-xl font-bold">TECHNICAL TRACKS</h3>
           
@@ -25,130 +37,132 @@ function CallForPaper(){
         <p className="mb-5 ">
           ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
         </p>
-        <ul className=" mb-5">
-  <li className=" flex list-none items-center mb-2">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    <span className='font-semibold'> Track 1:&nbsp;</span> Innovative Communication/Electronics/Electrical/Networks and Security.
+        <ul className="mb-5">
+  <li className="flex items-center mb-2">
+    <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+      <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Track 1: Innovative Communication/ Electronics/Electrical/Networks and Security.
   </li>
-  <li className="flex list-none  items-center mb-2">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    <span className='font-semibold'> Track 2:&nbsp;</span> Innovative Computing.
+  <li className="flex items-center mb-2">
+    <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+      <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Track 2: Innovative Computing.
   </li>
-  <li className="flex list-none items-center mb-2">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    <span className='font-semibold'> Track 3:&nbsp;</span> Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
+  <li className="flex items-center mb-2">
+    <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+      <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
   </li>
 </ul>
-        <div className="flex justify-between items-center mb-2">
-          <h4 className="text-lg font-bold">Innovative Communication/Electronics/Electrical/Networks and Security</h4>
-        </div>
-        <div className='flex justify-between items-center'>
-  <ul className=" p-5 list-disc list-inside mb-5 w-[75%]  ">
-    <li>Wireless sensor networks</li>
-    <li>Wireless communications</li>
-    <li>Optical Communication</li>
-    <li>Satellite Communication</li>
-    <li>Microelectronics</li>
-    <li>Embedded System</li>
-    <li>Nanoelectronics</li>
-    <li>Mechatronics</li>
-    <li>Renewable and Sustainable Energy</li>
-    <li>Power Systems</li>
-    <li>Smart Grid</li>
-    <li>Mobile ad-hoc networks</li>
-    <li>Software defined networks</li>
-    <li>Information theory and coding</li>
-    <li>Cloud communications and networking</li>
-    <li>Wearable network and systems</li>
-    <li>Personal communication systems</li>
-    <li>Vehicular networks and applications</li>
-    <li>Virtual and overlay networks</li>
-    <li>Future Internet Architecture</li>
-    <li>Next Generation Networking</li>
-    <li>Quantum Networking</li>
-    <li>QoS Provisioning and Architectures</li>
-    <li>Telecommunication Services and Applications</li>
-    <li>Network Performance</li>
-    <li>Computer Security</li>
-    <li>Digital Signature</li>
-    <li>Information Security</li>
-    <li>Network Security</li>
-    <li>Cyber Security</li>
-    <li>MANET’s</li>
-  </ul>
-  <div className="flex justify-center items-center w-1/4">
-    <img src={img2} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl" />
+        <div className="flex flex-col gap-5">
+  <div className="flex justify-between items-center mb-2">
+    <h4 className="text-lg font-bold">Innovative Communication/Electronics/ Electrical/Networks and Security</h4>
+  </div>
+  <div className='flex flex-col md:flex-row justify-between items-center'>
+    <ul className="p-5 list-disc list-inside mb-5 w-full md:w-[75%]">
+      <li>Wireless sensor networks</li>
+      <li>Wireless communications</li>
+      <li>Optical Communication</li>
+      <li>Satellite Communication</li>
+      <li>Microelectronics</li>
+      <li>Embedded System</li>
+      <li>Nanoelectronics</li>
+      <li>Mechatronics</li>
+      <li>Renewable and Sustainable Energy</li>
+      <li>Power Systems</li>
+      <li>Smart Grid</li>
+      <li>Mobile ad-hoc networks</li>
+      <li>Software defined networks</li>
+      <li>Information theory and coding</li>
+      <li>Cloud communications and networking</li>
+      <li>Wearable network and systems</li>
+      <li>Personal communication systems</li>
+      <li>Vehicular networks and applications</li>
+      <li>Virtual and overlay networks</li>
+      <li>Future Internet Architecture</li>
+      <li>Next Generation Networking</li>
+      <li>Quantum Networking</li>
+      <li>QoS Provisioning and Architectures</li>
+      <li>Telecommunication Services and Applications</li>
+      <li>Network Performance</li>
+      <li>Computer Security</li>
+      <li>Digital Signature</li>
+      <li>Information Security</li>
+      <li>Network Security</li>
+      <li>Cyber Security</li>
+      <li>MANET’s</li>
+    </ul>
+    <div className="flex justify-center items-center w-full md:w-1/4 mt-5 md:mt-0">
+      <img src={img2} alt="Innovative Communication" className="w-[20em] md:w-[30em] object-cover rounded-lg shadow-xl" />
+    </div>
+  </div>
+
+  <div className="flex justify-between items-center mb-2">
+    <h4 className="text-lg font-bold">Innovative Computing</h4>
+  </div>
+  <div className='flex flex-col md:flex-row justify-between items-center'>
+    <ul className="list-disc p-5 list-inside mb-5 w-full md:w-[70%]">
+      <li>Computational Intelligence</li>
+      <li>Signal Processing</li>
+      <li>Computer vision</li>
+      <li>Soft Computing</li>
+      <li>Decision Support and Decision making</li>
+      <li>Parallel computing</li>
+      <li>Distributed computing</li>
+      <li>Grid computing</li>
+      <li>Cloud computing</li>
+      <li>Mobile computing</li>
+      <li>Biomedical computing</li>
+      <li>Ubiquitous computing</li>
+      <li>Image processing</li>
+      <li>Information retrieval</li>
+      <li>Deep learning</li>
+      <li>Expert system</li>
+      <li>Internet computing</li>
+      <li>High performance computing</li>
+    </ul>
+    <div className="flex justify-center items-center w-full md:w-1/4 mt-5 md:mt-0">
+      <img src={img3} alt="Innovative Communication" className="w-[20em] md:w-[30em] object-cover rounded-lg shadow-xl" />
+    </div>
+  </div>
+
+  <div className="flex justify-between items-center mb-2">
+    <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
+  </div>
+  <div className='flex flex-col md:flex-row justify-between items-center'>
+    <ul className="list-disc p-5 list-inside mb-5 w-full md:w-3/4">
+      <li>Machine Learning</li>
+      <li>Artificial Intelligence</li>
+      <li>Robotics</li>
+      <li>Blockchain</li>
+      <li>Intelligent Systems for IoT</li>
+      <li>Environmental Monitoring</li>
+      <li>Machine to Machine/Device Communications</li>
+      <li>Network Design and Architecture</li>
+      <li>Wireless Systems and Applications</li>
+      <li>Infrastructure Management</li>
+      <li>IoT and Big Data</li>
+      <li>Home Automation</li>
+      <li>Security and Privacy</li>
+      <li>Social Implications of IoT</li>
+      <li>Technological focus for Smart Environments</li>
+      <li>Smart City Case Studies</li>
+      <li>Data Analysis and Visualization</li>
+      <li>Architecture for secure and interactive IoT</li>
+      <li>Sensor, Wireless Technologies and APIs</li>
+      <li>Emerging IoT</li>
+    </ul>
+    <div className="flex justify-center items-center w-full md:w-1/4 mt-5 md:mt-0">
+      <img src={img4} alt="Innovative Communication" className="w-[20em] md:w-[30em] object-cover rounded-lg shadow-xl" />
+    </div>
   </div>
 </div>
         
-        <div className="flex justify-between items-center mb-2">
-          <h4 className="text-lg font-bold">Innovative Computing</h4>
-        </div>
-        <div className='flex justify-between items-center'>
-  <ul className="list-disc p-5 list-inside mb-5 w-[70%]">
-    <li>Computational Intelligence</li>
-    <li>Signal Processing</li>
-    <li>Computer vision</li>
-    <li>Soft Computing</li>
-    <li>Decision Support and Decision making</li>
-    <li>Parallel computing</li>
-    <li>Distributed computing</li>
-    <li>Grid computing</li>
-    <li>Cloud computing</li>
-    <li>Mobile computing</li>
-    <li>Biomedical computing</li>
-    <li>Ubiquitous computing</li>
-    <li>Image processing</li>
-    <li>Information retrieval</li>
-    <li>Deep learning</li>
-    <li>Expert system</li>
-    <li>Internet computing</li>
-    <li>High performance computing</li>
-  </ul>
-  <div className="flex justify-center items-center w-1/4 max-w-full">
-    <img src={img3} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl"  />
-  </div>
-</div>
         
-        <div className="flex justify-between items-center mb-2">
-          <h4 className="text-lg font-bold">Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain</h4>
-        </div>
-        <div className='flex justify-between items-center'>
-  <ul className="list-disc p-5 list-inside mb-5 w-3/4  ">
-  <li>Machine Learning</li>
-          <li>Artificial Intelligence</li>
-          <li>Robotics</li>
-          <li>Blockchain</li>
-          <li>Intelligent Systems for IoT</li>
-          <li>Environmental Monitoring</li>
-          <li>Machine to Machine/Device Communications</li>
-          <li>Network Design and Architecture</li>
-          <li>Wireless Systems and Applications</li>
-          <li>Infrastructure Management</li>
-          <li>IoT and Big Data</li>
-          <li>Home Automation</li>
-          <li>Security and Privacy</li>
-          <li>Social Implications of IoT</li>
-          <li>Technological focus for Smart Environments</li>
-          <li>Smart City Case Studies</li>
-          <li>Data Analysis and Visualization</li>
-          <li>Architecture for secure and interactive IoT</li>
-          <li>Sensor, Wireless Technologies and APIs</li>
-          <li>Emerging IoT</li>
-  </ul>
-  <div className="flex justify-center items-center w-1/4">
-    <img src={img4} alt="Innovative Communication" className="w-[30em] right-60 absolute object-cover rounded-lg shadow-xl"  />
-  </div>
-</div>
-        
-        
-        <p className="mb-5 text-right">
+        <p className="mb-5 text-right text-sm ">
            Studies and new developments, which are relevant to science, engineering and technology are welcomed to the conference.
         </p>
       </div>
