@@ -15,7 +15,11 @@ function CallForPaper(){
         <div className="flex flex-col text-justify items-center mb-5 md:flex-row">
         <div className='flex flex-col gap-5'>
   <p className="mb-5 pr-5">
-    International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
+    
+    {/* International Conference on Emerging Technology and Intelligent Systems (ICETIS) schedule on 11th -13th Sep, 2025. Its objective is to bring together leading academic scientists, researchers, research scholars, and educators to exchange and share their experiences and research results on all aspects of quality control and its management strategies. Experts will share the most recent innovations, trends on advancement in Communication Systems and Networking, Embedded Systems and IOT, Intelligent Computing, Artificial and Machine Learning, and Industrial and commercial applications of technologies.
+     */}
+     The objective of the International Conference on Emerging Technologies and Intelligent Systems (ICETIS-2025) is to provide a global forum for researchers, practitioners, industry experts, and academicians to present and discuss the latest advancements, challenges, and innovations in the fields of emerging technologies and intelligent systems. The conference aims to facilitate the exchange of knowledge, foster interdisciplinary collaboration, and explore the integration of intelligent systems with emerging technologies to address complex global challenges.
+
   </p>
   {/* <div className='flex flex-col gap-5 items-center'>
   <button className='rounded-lg w-[15em] bg-red-600 text-white font-semibold px-4 py-2'>Click here to Download</button>
@@ -35,26 +39,28 @@ function CallForPaper(){
           
         </div>
         <p className="mb-5 ">
-          ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
+          {/* ICETIS 2025 invites original and unpublished manuscripts for submission in the following tracks (but not limited to): */}
+          IEEE - International Conference on Emerging Technologies, and Intelligent Systems (ICETIS-2025) - Invites original and unpublished manuscripts for submission in the following tracks (but not limited to):
+
         </p>
         <ul className="mb-5">
   <li className="flex items-center mb-2">
     <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
       <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    Track 1: Innovative Communication/ Electronics/Electrical/Networks and Security.
+    Track 1: IInnovative in Communication/Electronics/Electrical/Wireless/Optical Networks and Security sensors.
   </li>
   <li className="flex items-center mb-2">
     <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
       <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    Track 2: Innovative Computing.
+    Track 2: Innovative Computing, Robotics, Next-generation IOT and Industrial Automation.
   </li>
   <li className="flex items-center mb-2">
     <svg className="flex-shrink-0 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
       <path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    Track 3: Artificial Intelligence/Machine Learning/Robotics/IOT/Blockchain.
+    Track 3: Artificial Intelligence, Machine Learning, Big data, Blockchain and analytics.
   </li>
 </ul>
         <div className="flex flex-col gap-5">

@@ -30,26 +30,7 @@ function About() {
           </h2>
           <div className="p-5 mt-10 text-justify bg-gray-100 rounded-md">
             <p>
-              Established in 2012 with engineering as a flagship program,
-              Chandigarh Engineering College, Jhanjeri (CEC-J) accredited NAAC
-              A+ has come a long way in its journey of delivering quality higher
-              education at affordable fees. CEC-J, whose roots date back to 2001
-              and has evolved from CEC Group, is today one of North India’s
-              leading higher education providers that offer world-class
-              education and endless placement opportunities to the students of
-              all corners of the country. CEC-J is the epitome of strong international alliances as we have
-              tied-up with 40+ top international colleges and universities in 15
-              countries around the globe. These alliances give our students an
-              opportunity to broaden their horizons. The college embraces
-              seasoned faculty who are alumni of IITs and IIMs, a
-              student-centric and research-intensive environment and, most
-              importantly, an education model that blends the theory and
-              hands-on exposure effectively.Apart from this, CEC-J has been placing utmost importance on 360°
-              pre-placement training, as well as, building strong
-              industry-academia alliances – that’s why we are trendsetters in
-              campus placements. We have tied up with many top-notch companies
-              in diverse fields to understand the industry trends and implement
-              an industry-standard curriculum.
+            Established in 2012 with engineering as its flagship program, Chandigarh Engineering College, Jhanjeri (CEC-J), accredited with a NAAC A+ rating, has made significant strides in providing quality higher education at affordable costs. CEC-J, with origins tracing back to 2001 as part of the CEC Group, has emerged as one of North India’s premier higher education institutions, offering world-class education and extensive placement opportunities to students from across the country. CEC-J stands out for its strong international partnerships, having forged alliances with over 50 leading international colleges and universities across 25 countries. These collaborations provide our students with the chance to expand their global perspectives. The college is home to experienced faculty, many of whom are alumni of IITs, NITs and IIMs, and fosters a student-centric, research-driven environment. Our educational approach effectively combines theoretical knowledge with practical experience. In addition, CEC-J places great emphasis on comprehensive pre-placement training and has built robust industry-academia partnerships, making us leaders in campus placements. We have established connections with top-tier companies across various sectors to stay aligned with industry trends and implement an industry-relevant curriculum.
             </p>
             <div className="pt-5">
               <p>
